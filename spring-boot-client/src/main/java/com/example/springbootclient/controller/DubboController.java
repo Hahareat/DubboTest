@@ -21,7 +21,7 @@ public class DubboController {
 
     @RequestMapping("dubbo")
     public String dubboTest() {
-        System.out.println("hahaha");
+        System.out.println("hahahaaaaa");
         return dubboService1.test();
     }
 
